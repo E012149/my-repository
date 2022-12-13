@@ -32,3 +32,10 @@ def number():
     return render_template('body.html', value1=x, value2=y, sum=x+y)
 if __name__ == '__main__':
     app.run(debug=True)
+    
+
+    
+
+
+    
+    
