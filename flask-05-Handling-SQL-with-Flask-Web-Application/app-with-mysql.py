@@ -29,13 +29,13 @@ CREATE TABLE users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 """
 data = """
-INSERT INTO clarusway.users 
-VALUES 
-	("Tuba", "tuba@amazon.com" ),
-	("Ethan", "ethan@micrasoft.com"),
-	("mostafa", "mostafa@facebook.com"),
-    ("sait", "sait@tesla.com"),
-    ("busra","busra@google");
+INSERT INTO users
+VALUES
+	("Icardi", "icardi@amazon.com" ),
+	("Oliviera", "oliviera@micrasoft.com"),
+	("Torrera", "torrera@facebook.com"),
+    ("Muslera", "muslera@tesla.com"),
+    ("Nelson","Nelson@google");
 """
 cursor.execute(drop_table)
 cursor.execute(users_table)
